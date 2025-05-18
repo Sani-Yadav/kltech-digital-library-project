@@ -1,40 +1,51 @@
-# KL Tech Digital Library
+# 📚 KL Tech Digital Library
 
-A robust and user-friendly **Django-based library management system** designed to streamline library operations for both users and administrators. This system facilitates seamless book management, user authentication, borrowing workflows, fine tracking, and more — all within a clean, intuitive interface.
+KL Tech Digital Library is a modern, easy-to-use web application built with **Django**, **Tailwind CSS**, and **Razorpay** to provide a seamless online platform for library management.
 
----
-
-## 🚀 Features
-
-### For Students:
-- Secure signup and login system
-- Browse and search books by title, author, or category
-- Request and track borrowed books with real-time status updates
-- Monitor due dates and outstanding fines
-- Make fine payments online with integrated payment gateway support
-
-### For Admins:
-- Comprehensive dashboard for managing books, authors, and users
-- Approve or reject book borrowing requests
-- Calculate and manage fines efficiently
-- Full CRUD operations on library resources
-- View user activity and issue history
-- Manage user roles and permissions seamlessly
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/yourusername/kltech-digital-library/commits/main)  
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Backend:** Python 3.x, Django 4.x  
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Styling:** Tailwind CSS / Bootstrap (Adjust based on your project)  
-- **Additional:** Django Widget Tweaks for flexible form rendering  
+- ![Python](https://img.icons8.com/color/48/000000/python--v1.png) Python  
+- ![Django](https://img.icons8.com/color/48/000000/django.png) Django  
+- ![Tailwind CSS](https://img.icons8.com/color/48/000000/tailwind_css.png) Tailwind CSS  
+- ![Razorpay](https://razorpay.com/assets/razorpay-icon.svg) Razorpay  
+- HTML5, CSS3, JavaScript  
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Features
 
-1. **Clone the repository:**
+### For Everyone
+- Browse and search books by title, author, or category
+- Sort books and authors alphabetically
+- Responsive and clean user interface
+
+### Student Features
+- Secure login/signup
+- Request to borrow books
+- View current and past book issues with filtering options
+- Track due dates and fines clearly
+- Pay fines online via Razorpay
+
+### Admin Features
+- Admin dashboard to manage books, students, and issues
+- Add, edit, delete books and authors
+- Approve or reject book issue requests
+- View, calculate, and manage fines
+- Toggle fine payment status (online or cash)
+- Search and filter students by department and fines
+- View student login details and activity
+- Reset passwords for users securely
+
+---
+
+## 📥 Installation
+
+1. Clone this repository:  
    ```bash
    git clone https://github.com/yourusername/kltech-digital-library.git
 
@@ -56,4 +67,3 @@ python manage.py migrate
 
 # 6. Run the development server
 python manage.py runserver
-
