@@ -38,3 +38,22 @@ A robust and user-friendly **Django-based library management system** designed t
    ```bash
    git clone https://github.com/yourusername/kltech-digital-library.git
 
+# 1. Navigate to the project folder
+cd Django-librarymanagement-main
+
+# 2. Activate the virtual environment
+.\env\Scripts\activate    # For Windows
+# source env/bin/activate  # For Linux/Mac
+
+# 3. Upgrade setuptools (if not already installed)
+pip install --upgrade setuptools
+
+# 4. Install project dependencies
+pip install -r requirements.txt
+
+# 5. Apply database migrations
+python manage.py migrate
+
+# 6. Run the development server
+python manage.py runserver
+
