@@ -1,4 +1,4 @@
-# 📚 KL Tech Digital Library
+# 📚 KL Tech Digital Library ---
 
 KL Tech Digital Library is a modern, easy-to-use web application built with **Django**, **Tailwind CSS**, and **Razorpay** to provide a seamless online platform for library management.
 
