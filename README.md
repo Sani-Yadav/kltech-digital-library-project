@@ -3,7 +3,7 @@
 KL Tech Digital Library is a modern, easy-to-use web application built with **Django**, **Tailwind CSS**, and **Razorpay** to provide a seamless online platform for library management.
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/yourusername/kltech-digital-library/commits/main)  
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) .
 
 ---
 
